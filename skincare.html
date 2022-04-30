@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skin Care</title>
+<style>
+	
+		div.anim
+		{
+			 height:400px;
+			 width:70%;
+			 background-image:url("skincare2.jpg");
+			 background-repeat:no-repeat;
+			 background-size:cover;
+			 background-position:relative;
+
+			 animation-name:imgSlider;
+			 animation-duration:25s;
+		 	 animation-iteration-count: infinite;
+			 animation-direction:alternate;
+			 margin-top: 10%;
+			 margin-left: 15%;	
+		}
+		@keyframes imgSlider
+		{
+			0%{background-image:url("skincare2.jpg"); left:0px; top:0px;}
+			25%{background-image:url("skincare4.jpg");left:200px; top:0px;}
+			50%{background-image:url("skincare5.jpg");left:200px; top:200px;}
+			75%{background-image:url("skincare3.jpg");left:0px; top:200px;}
+			100%{background-image:url("skincare2.jpg"); left:0px; top:0px;}
+		}
+		
+		.header
+		{
+			margin-left: 25%;
+			position:fixed;
+			overflow: hidden;
+			top: -2%;	
+		}
+		ul
+		{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:#000;
+			float: left;
+		}
+		 li
+		 {
+		  	display:inline-block; 
+		  	padding-right:20px;
+		  	font-size: 20px;
+		  	color: white;
+		  	vertical-align: center;
+		}
+		
+		li:hover 
+		{
+		  
+		} 
+		li a
+		{
+			text-decoration: none;  
+			color:white;
+		}
+		/*sub menu */
+		ul ul
+		{ 
+			display:none;
+			position:relative; 
+		}
+		ul li:hover ul
+		{
+			 display:block; 
+			 width:180px; 
+			 margin-left:-10px;
+		}
+		li ul li
+		{
+			 display:block; 
+			 padding:10px; 
+			 cursor:pointer; 
+			 text-align:left; 
+		}
+		.mn ul li a:hover
+		{
+			color: pink;
+		}
+
+		img
+		{
+			width: 120px;
+
+		}
+		li#img1
+		{
+			width: 100px;
+		}
+		.mn:hover
+		{
+			background-color:pink;
+		}
+		hr
+		{
+			clear: both;
+			width: 150%;
+			background:radial-gradient(black, white);
+
+
+		}
+		#img1
+		{
+			vertical-align:  center;
+			height: 4000%;
+			width: 1000%;
+		}
+		#sc
+		{
+			height: 400px;
+			width: 60%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 11%;
+		}
+		#p1
+		{
+			color: white;
+			background-color: grey;
+			font-size: 300%;
+			text-align: center;
+			font-family:"Agency FB";
+			text-shadow: black 2px 2px 7px;
+			background-size: 500%; 
+			margin-top: 2%;
+		}
+		#skinpro
+		{
+			background-color: #000;
+			text-align: center;
+			size: 500%;
+			margin-right: 5%;
+			padding-right: 50px;
+			margin-top: -3%; 
+		}
+		div.hide
+		{
+			display: none;
+		}
+		.mn a:hover
+		{
+			color: black;
+		}
+	</style>
+</head>
+	<body bgcolor="black">
+	<div class="header">
+		<ul>
+			<li id="img"><img src="logo_GU.jpg"></li>
+			<font face="Bradley Hand ITC" size="25px"><li class="mn"><a href="case_study.html">Make Up</a></li>
+			<li class="mn"><a href="">Skin Care</a></li>
+			<li class="mn"><a href="">Brands</a>
+				<ul>
+					<li><a href=""> Lakme` </a></li>
+					<li><a href="">  Oriflame </a></li>
+					<li><a href=""> Maybelline </a></li>
+	 
+				</ul>
+			</li>
+			<li class="mn"><a href="case_study.html"> About Us </a></li>
+			<li class="mn"><a href="case_study.html"> Contact Us </a></li></font>
+		</ul>
+		<hr>
+	</div>
+	<div class="anim">
+		
+
+	</div>
+	<br>
+	<div class="hide">
+	<center><img id="sc" src="skincare2.jpg"></center>
+	<center><img id="sc" src="skincare4.jpg"></center>
+	<center><img id="sc" src="skincare5.jpg"></center>
+	<center><img id="sc" src="skincare3.jpg"></center>
+	</div>
+	<br>
+	
+	<hr>
+	<p id="p1"><font style="Bradley Hand ITC">All Products</font></p>
+	
+	<table id="skinpro">
+	<tr height=450>
+		<td width="500" ><img src="sc1.png"><br><br><font face="Ink Free" color="pink">NATURALE CC CREAM</font><br><font color="white">Your instant stylist,this CC cream<br>corrects dull, dry and irritated skin...</font></td>
+		<td width="500" ><img src="sc2.png"><br><br><font face="Ink Free" color="pink">NATURALE CC CREAM</font><br><font color="white">The journey to a perfect morning face<br>starts witha nourishing nighttime beauty...</font></td>
+		<td width="500"><img src="sc3.png"><br><br><font face="Ink Free" color="pink">PEACH MILK SOFT CREME</font><br><font color="white">Say goodbye to winter dryness with the all<br> new Peach Milk Creme...</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="sc4.png"><br><br><font face="Ink Free" color="pink">REINVENT BLUSH & GLOW<br>LEMON FACEWASH</font><br><font color="white">Start and end your day with the new<br>Blush & Glow Lemon Facewash...</font></td>
+		<td width="400" ><img src="sc5.png"><br><br><font face="Ink Free" color="pink">BLUSH & GLOW GEL FACE<br>WASH POMERGRANATE</font><br><font color="white">Enriched with key ingredients like rich<br>pomegranate extracts, antioxidants and...</font></td>
+		<td width="400" colspan="4"><img src="sc6.png"><br><br><font face="Ink Free" color="pink">SUN EXPERT ULTRA MATTE GEL<br>SUNSCREEN SPF 50 PA+++</font><br><font color="white">The all new Sun Expert Matte Gel<br>formula is your go-to essential<br>to beat the sun...</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="sc7.png"><br><br><font face="Ink Free" color="pink">MAXIMUM MOISTURISER<br>PEACH MILK</font><br><font color="white">Enjoy a blush like glow with<br>Maximum Moisturiser Peach Milk...</font></td>
+		<td width="400" ><img src="sc8.png"><br><br><font face="Ink Free" color="pink">CLEANSING MILK DEEP<br>CLEANSER</font><br><font color="white">A gentle cleanser that also effectively<br>removes makeup...</font></td>
+		<td width="400"><img src="sc9.png"><br><br><font face="Ink Free" color="pink">YOUTH INFINITY SKIN FIRMING SERUM</font><br><font color="white">A complete line of skin care products to <br>help you hold on your 20's sculpted...</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="sc10.png"><br><br><font face="Ink Free" color="pink">YOUTH INFINITY SKIN FIRMING<br>NIGHT CREME</font><br><font color="white">A complete line of skin care products to<br>help you hold on your 20's sculpted...</font></td>
+		<td width="400" ><img src="sc11.png"><br><br><font face="Ink Free" color="pink">YOUTH INFINITY SKIN FIRMING<br>DAY CREME</font><br><font color="white">A complete line of skin care products to<br>help you hold on your 20's sculpted...</font></td>
+		<td width="400" ><img src="sc12.png"><br><br><font face="Ink Free" color="pink">ABSOLUTE SKIN GLOSS OVERNIGHT MASK</font><br><font color="white">Hydrate your skin with this exclusive<br> range of skin products...</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="sc13.png"><br><br><font face="Ink Free" color="pink">ABSOLUTE SKIN GLOSS<br>OVERNIGHT MASK<br></font><br><font color="white"><font color="white">Hydrate your skin with this exclusive<br> range of skin products...</font></td>
+		<td width="400" ><img src="sc14.png"><br><br><font face="Ink Free" color="pink">ABSOLUTE ARGAN OIL<br>RADIANCE OIL-IN-CREME></font><br><font color="white">Say hello to beautifully nourished skin<br>throughout the day...</font></td>
+		<td width="400"><img src="sc15.png"><br><br><font face="Ink Free" color="pink">SUN EXPERT FAIRNESS +UV<br>LOTION SPF 24 PA++</font><br><font color="white">The all new Sun Expert is your go-to<br>essential to beat the sun...</font></td>
+	</tr>
+	</table><br>
+	<marquee> <font color="grey" face="Ink Free"><b><i>* For more details visit your nearest store.</i></b></font> </marquee>
+</body>
+</html>

@@ -1,0 +1,378 @@
+﻿<html>
+<head>
+	<title>GORGE US-PI CASE STUDY</title>
+	<style>
+		.header
+		{
+			margin-left: 25%;
+			position:fixed;
+			overflow: hidden;	
+			top:-15px;
+		}
+		ul
+		{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:#000;
+			float: left;
+		}
+		 li
+		 {
+		  	display:inline-block; 
+		  	padding-right:20px;
+		  	font-size: 20px;
+		  	color: white;
+		  	vertical-align: center;
+		}
+		
+		li:hover 
+		{
+		  
+		} 
+		li a
+		{
+			text-decoration: none;  
+			color:white;
+		}
+		/*sub menu */
+		ul ul
+		{ 
+			display:none;
+			position:relative; 
+		}
+		ul li:hover ul
+		{
+			 display:block; 
+			 width:180px; 
+			 margin-left:-10px;
+		}
+		li ul li
+		{
+			 display:block; 
+			 padding:10px; 
+			 cursor:pointer; 
+			 text-align:left; 
+		}
+
+		img
+		{
+			width: 120px;
+
+		}
+		li#img1
+		{
+			width: 100px;
+		}
+		.mn:hover
+		{
+			background-color:pink;
+		}
+		hr
+		{
+			clear: both;
+			width: 150%;
+			background:radial-gradient(black, white);
+		}
+		img#img2
+		{
+			height: 190px;
+			width: 150px;
+		}
+		.like img
+		{
+			padding: 40px;
+			padding-top: 250px;
+		}
+		#p1
+		{
+			color: white;
+			background-color: grey;
+			font-size: 300%;
+			text-align: center;
+			font-family:"Agency FB";
+			text-shadow: black 2px 2px 7px;
+			background-size: 500%; 
+		}
+		#hr2
+		{
+			color: white;
+			width: 7%;
+		}
+		#p2
+		{
+			font-family: "Bradley Hand ITC";
+			color: pink;
+			text-align: center;
+			font-size: 180%;
+			text-decoration: bold;
+		}
+		#p3
+		{
+			font-family: "Bradley Hand ITC";
+			color: white;
+			text-align: center;
+			font-size: 150%;
+
+		}
+		#p4
+		{
+			color: white;
+			font-size: 150%;
+			margin-left: 7%;
+			font-family:"Agency FB";
+			text-shadow: black 2px 2px 7px;
+		}
+		#p5
+		{
+			color: white;
+			font-size: 100%;
+			margin-left: 7%;
+			font-family: "Agency FB";
+			text-shadow: black 2px 2px 7px;
+		}
+		#txta1
+		{
+			margin-left: 7%;
+		}
+		#button1
+		{
+    		background-color: black;
+		    border: 2px solid pink;
+   			color: white;
+    		padding: 10px 24px;
+    		text-align: center;
+    		text-decoration: none;
+    		display: inline-block;
+    		font-size: 15px;
+    		border-radius: 12%;
+
+		}
+		.FB
+		{
+			border: none;
+			color: black;
+			border-radius: 15%;
+			width: 60%;
+			padding: 10px 24px;
+		}
+		table tr td
+		{
+			border-color: #000;
+			background-color: #000;
+			text-indent:11%;
+		}	
+		a img:hover
+		{
+			   border-bottom-color: #FF1493 ;
+			   border-bottom-style: ridge;  
+			  // background-image:url("C:\Users\Akriti Singh\Desktop\Submissions\New folder\eyeliner1.jpg");
+			
+		}
+		table
+		{
+			color: pink;
+			top: 10px;
+		}
+		.mn a:hover
+		{
+			color: black;
+		}
+		.mn ul li a:hover
+		{
+			color: pink;
+		}
+		#logsym
+		{
+			border-style: dotted;
+			border-radius: 20px;
+			border-color: pink;
+			margin-left: 50px;
+		}
+		textarea
+		{
+			background-color: #D3D3D3;
+			border-radius: 10px;
+		}
+		#logt
+		{
+			opacity: .8;
+			color: black;
+			background-color:pink;
+			font-family: 
+		}	
+		#logt tr td
+		{
+			padding: 0px;
+			background-color: pink;
+			font-family: "Agency FB";
+		}
+	</style>
+<script language="javascript">
+function change(imgID)
+{
+	if(imgID == 0)
+	{	
+		document.getElementsByClassName("img2")[imgID].src = "eyeliner1.jpg";		
+	}
+	else if(imgID == 1)
+	{
+		document.getElementsByClassName("img2")[imgID].src = "facepowder1.jpg";	
+	}
+	else if(imgID == 2)
+	{
+		document.getElementsByClassName("img2")[imgID].src = "lipstick1.jpg";	
+	}
+	else if(imgID == 3)
+	{
+		document.getElementsByClassName("img2")[imgID].src = "nailpolish1.jpg";	
+	}
+}
+</script>
+
+</head>
+<body bgcolor="black">
+	<div class="header">
+		<ul>
+			<li id="img"><img src="logo_GU.jpg"></li>
+			<font face="Bradley Hand ITC" size="25px"><li class="mn"><a href="#Images">Make Up</a></li>
+			<li class="mn"><a href="skincare.html">Skin Care</a></li>
+			<li class="mn"><a href="">Brands</a>
+				<ul>
+					<li><a href=""> Lakme` </a></li>
+					<li><a href="">  Oriflame </a></li>
+					<li><a href=""> Maybelline </a></li>
+	 
+				</ul>
+			</li>
+			<li class="mn"><a href="#second_last"> About Us </a></li>
+			<li class="mn"><a href="#last"> Contact Us </a></li></font>
+		</ul>
+		<hr>
+	</div>
+	
+	<p id="Images">
+	<div class="like">
+		<center>
+			
+			<a href="#eyepro"><img class="img2" src="eyeliner.jpg" onmouseover="change(0)"></a>s
+			<a href="#facepro"><img width="250px" height="150" class ="img2"  src="facepowder.jpg" onmouseover="change(1)"></a>
+			<a href="#lippro"><img width="250px" height="150" class="img2" src="lipstick.jpg" onmouseover="change(2)"></a>
+			<a href="#nailpro"><img class="img2" src="nailpolish.jpg" onmouseover="change(3)"></a>	
+		</center>
+	</div>
+	</p>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<p id="p1"><font style="Bradley Hand ITC">All Products</font></p>
+	<br>
+	
+	<table id="eyepro" align="center">
+	<tr height=350>
+		<td width="400" ><img src="eye1.png"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Ink Free">ABSOLUTE GLOSS ARTIST LINER-BLACK</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="white" face="Calibri (Body)">Define your eyes with Absolute<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gloss Artist Eye Liner in the shade black.</font></td>
+		<td width="400" ><img src="eye3.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE SHINE LINE</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your favourite Shine Line just got way<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;more exciting with a touch of Gold.</font></td>
+		<td width="400" colspan="4"><img src="eye8.png"><br><br><br><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE FLUTTER SECRETS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DRAMATIC EYES MASCARA</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It has long term curl memory formula and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's got everything to amplify your lashes.</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="eye5.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE ILLUMINATING <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EYESHADOW PALLETE-GOLD</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A multi-faceted eye shadow for the diva<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in you.</font></td>
+		<td width="400" ><img src="eye6.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE ILLUMINATING <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EYESHADOW PALLETE-NUDE BEACH</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A multi-faceted eye shadow for the diva<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in you.</font></td>
+		<td width="400" colspan="4"><img src="eye7.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EYE QUARTET-TANJORE RUSH</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unleash the ultimate drama within your<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eyes with the 4 in 1 magic.</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="eye3.png"><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE SHINE LINE</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your favourite Shine Line just got way<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;more exciting with a touch of Gold.</font></td>
+		<td width="400" ><img src="eye9.png"><font face="Ink Free"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NATURALE GEL EYE LINERS</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add a pop of colour to your eyes and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;glossify your eyeline.</font></td>
+		<td width="400" colspan="4"><img src="eye2.png"><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EYECONIC PEN (BLOCK TIP)</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A sleek new innovation from the world of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GorgeUs.</font></td>
+	</tr>
+	</table>
+	
+	<table id="facepro" align="center">
+	<tr height=350>
+		<td width="400" ><img src="face1.png"><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE WHITE INTENSE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIQUID CONCEALER<br></font><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Say hello to flawless, luminous and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;healthy looking skin.</font></td>
+		<td width="400" ><img src="face2.png"><br><br><br><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SUN COMPACT</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Say goodbye to sticky summer skin with<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun Expert Ultra Matte Compact</font></td>
+		<td width="400" colspan="4"><img src="face3.png"><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE ARGAN OIL SERUM FOUNDATION</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nourished skin with a flowless finish is<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;now a reality.</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="face4.png"><br><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE ILLUMINATING <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHIMMER BRICK</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Absolute Illuminating Shimmer<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brick is the latest addition to GorgeUs.</font></td>
+		<td width="400" ><img src="face5.png"><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE  ILLUMINATING FOUNDAION</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A natural glow like no other.</font></td>
+		<td width="400" colspan="4"><img src="face6.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE MOON-LIT HIGHLIGHTER</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The art of strobing can now be practiced<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and perfected with the all new Absolute Moon-Lit<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Highlighter.</font></td>
+	</tr>
+	</table>
+	
+	<table id="lippro" align="center">
+	<tr height=350>
+		<td width="400" ><img src="lip1.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE LUXE MATTE LIP<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COLOR WITH ARGAN OIL</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The power of Argan oil continues to<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enrich and nourish your lips.</font></td>
+		<td width="400" ><img src="lip2.png"><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE MATTE MELT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIQUID LIP COLOR</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make quite the impression with this<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longwear, weightless and colour-intended.</font></td>
+		<td width="400" colspan="4"><img src="lip3.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NATURALE MATTE STICKS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIPSTICKS</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Healthy and Nourished Lips<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is now a stunning reality.</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="lip4.png"><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE LIP POUT MATTE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MASABA LIPS</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unravel the 90s kid in you with a<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;beautiful pop of Lip Pout Matte Masaba.</font></td>
+		<td width="400" ><img src="lip5.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRIMER + MATTE LIPSTICK</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's matte and enriched with the power<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of a primer.</font></td>
+		<td width="400" colspan="4"><img src="lip6.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ENRICH LIP CRAYON</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Embrace the all new formulated lip<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colour crayon.</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="lip7.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOUSSE LIP & CHEEK COLOR</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An explosion of colour to your daily<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;makeup routine.</font></td>
+		<td width="400" ><img src="lip8.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE LIP POUT-CREME</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's time for the backstage trend to take<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;centre stage.</font></td>
+		<td width="400" colspan="4"><img src="lip9.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE GLOSS STYLIST-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WINE SHINE</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A revolutionary gloss that delivers high<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shine along with a super chic lacquer.</font></td>
+	</tr>
+	</table>
+	
+	<table id="nailpro" align="center">
+	<tr height=350>
+		<td width="400" ><img src="nail1.png"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Ink Free">PRIMER + MATTE NAILS</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Perfect for everyday office wear or party time, this is <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trendsetting nail color.</font></td>
+		<td width="400" ><img src="nail2.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABSOLUTE GEL STYLIST<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ILLUMINATE)</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When jwellery wed color, your nails<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can look like a million bucks.</font></td>
+		<td width="400" colspan="4"><img src="nail3.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LONG WEAR </font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Say goodbye to chipped nail polish...<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flawless and long lasting by nature.</font></td>
+	</tr>
+	<tr height=350>
+		<td width="400" ><img src="nail4.png"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Ink Free">ABSOLUTE GEL STYLIST</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pump up your nails in a single stroke,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with this plump finish and super shiny.</font></td>
+		<td width="400" ><img src="nail5.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRUE WEAR COLOR CRUSH 58</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trendy shades on-the-go and for every<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mood.</font></td>
+		<td width="400" colspan="4"><img src="nail6.png"><br><br><font face="Ink Free">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ULTRA NAIL ENAMEL<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REMOVER</font><br><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The safest and healthiest way to remove<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your nail colour.</font></td>
+	</tr>
+	</table>
+	
+	<br>
+	<p id="second_last">
+	<hr id="hr2">
+	<p id="p2">About Us</p>
+	<hr id="hr2">
+	<p id="p3">"An ally to the classic Indian woman, <font face="Bradley Hand ITC" color="pink">Gorge</font><font face="Bodoni MT Black" color="pink">Us</font> inspires her to express the unique beauty and sensuality within… enabling her<br> to realize the potency of her beauty."<br>
+
+The contemporary Indian beauty expert - <font face="Bradley Hand ITC" color="pink">Gorge</font><font face="Bodoni MT Black" color="pink">Us</font> continuously innovates to offer a wide range of high performance and world class cosmetics,<br> skincare products, and beauty salons. Combining international cosmetic technology with an in-depth understanding of the Indian woman’s <br>needs, <font face="Bradley Hand ITC" color="pink">Gorge</font><font face="Bodoni MT Black" color="pink">Us</font> also offers its consumers a comprehensive beauty experience through its products that are ideal for a variety of Indian<br> skin tones..</p>
+</p>
+<p id="last">
+<hr id="hr2">
+<p id="p2">Get In Touch</p>
+<hr id="hr2">
+<p id="p4"><font face="Bradley Hand ITC" color="pink">Gorge</font><font face="Bodoni MT Black" color="pink">Us</font> PRODUCT<br>QUERY/FEEDBACK</p>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#log_in"><img id="logsym" 
+src="loginsymbol.png" height="55px" width="-5px" border="2px"></a>
+<div class="FB">
+<textarea id="txta1" cols="150" rows="10" name="Feedback" tabindex="on" wrap="physical" placeholder="Enter your Feedback..."></textarea>
+</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="button1" type="SUBMIT" name="SUBMIT">
+<p id="p5">TOLL FREE : 1800 8181 8000<br>
+<a href=" ">LEVER.CARE@UNILEVER.COM</a></p>
+</p>
+<form id="log_in">
+	<table id="logt" border="0px" height="300px" align="center">
+		<tr>
+			<td colspan="3" align="center" style="font-size: 35px;"><b>LOGIN</b></td>
+			
+		</tr>
+		<tr>
+			<td width="150px" colspan="2"><b>Username</b></td>
+			<td width="250px" colspan="2"><input type="text" name="username" placeholder="Enter Username"></td>
+		</tr>
+		<tr>
+			<td width="150px" colspan="2"><b>Password</b></td>
+			<td width="250px" colspan="2"><input type="Password" name="Password" placeholder="Enter Password"></td>
+		</tr>
+		<tr>
+			<td width="150px" colspan="2"><input type="button" name="SUBMIT" value="SUBMIT" style="background-color: black; color: white; border:0px; padding: 5px; margin-left: 50px;"></td>
+			<td width="250px" colspan="2"><input type="button" name="Reset" value="RESET" style="background-color: black; color: white; border:0px; padding: 5px; margin-left: -10px;"></td>
+		</tr>	
+	</table>
+</form>
+	</body>
+</html>
